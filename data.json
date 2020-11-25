@@ -2,8 +2,9 @@
   "data": [
     {
       "sectionName": "Burrito Combo",
+      "sectionDescription": "Everything you love wrapped in a flour tortilla",
       "sectionImage": "src/images/section-images/burrito-section.jpg",
-      "id": "1",
+      "id": "burrito_combo",
       "item": [
         {
           "id": "1",
@@ -38,113 +39,186 @@
       ]
     },
     {
-      "sectionName": "Burrito Combo",
+      "sectionName": "Favourites",
+      "sectionDescription": "Tasty favourites ready for you to customize and enjoy!",
       "sectionImage": "src/images/section-images/burrito-section.jpg",
-      "id": "1",
+      "id": "favourites",
       "item": [
         {
           "id": "1",
-          "title": "Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour with cilantro-lime rice, your choice of slowed cooked black or punto beans.",
-          "price": 11.76
+          "title": "Dos Tacos",
+          "description": "Two flour tortilla filled with cheese, lettuce, your choice of salsas, choice of meat, and more.",
+          "price": 9.5
         },
         {
           "id": "2",
-          "title": "Fajita",
-          "description": "A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese, lettuce, sour cream, your choice of two salsas, and more.",
-          "price": 11.76
+          "title": "Two Soft Vegetarian Tacos",
+          "description": "Two flour tortillas filled with cheese, lettuce, and your choice of salsas.",
+          "price": 6.99
         },
         {
           "id": "3",
-          "title": "FajRito",
-          "description": "A combination of Chorizo's two classics, the Fajita and Burrito. A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese.",
-          "price": 12.6
+          "title": "Fiesta Saldad",
+          "description": "Romaine lettuce, beans, cheesem your choice of two salsas, choice of dressing, choice of meet, and more.",
+          "price": 8.12
         },
         {
           "id": "4",
-          "title": "Vegetarian Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour tortilla with cilantro-lime rice, your choice of slowed cooked black or pinto beans.",
-          "price": 8.99
+          "title": "Quesadilla",
+          "description": "Tasty quesadilla stuffed with cheese, your choice of two salsas, choice of beans, choice of meat, and more. Toasted to perfection.",
+          "price": 9.5
         },
         {
           "id": "5",
-          "title": "The el Grande",
-          "description": "A FajRito with double meat! A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onios, your choice of beans, cheese, lettuce.",
-          "price": 15.51
+          "title": "Nachos",
+          "description": "Freshly made in-house tortilla chips topped with aged cheddar sauce, your choice of beans, choice of two salsas, choice of meat, and more.",
+          "price": 8.12
         }
       ]
     },
     {
-      "sectionName": "Burrito Combo",
+      "sectionName": "Favourite Combos",
+      "sectionDescription": "Tasty favourites ready for you to customize and enjoy! Served with chips, salsas, and your choice of beverage",
       "sectionImage": "src/images/section-images/burrito-section.jpg",
-      "id": "1",
+      "id": "favourite_combos",
       "item": [
         {
           "id": "1",
-          "title": "Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour with cilantro-lime rice, your choice of slowed cooked black or punto beans.",
-          "price": 11.76
+          "title": "Dos Tacos Combo",
+          "description": "Two flour tortillas filled with cheese, lettuce your chice of salsas, choice of meat and more. Served with tortilla chips, your choice of salsa.",
+          "price": 13.49
         },
         {
           "id": "2",
-          "title": "Fajita",
-          "description": "A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese, lettuce, sour cream, your choice of two salsas, and more.",
-          "price": 11.76
+          "title": "Two Soft Vegetarian Tacos Combo",
+          "description": "Two flour tortillas filled with cheese, lettuce, and your choice of salsas. Comes with tortilla chips, your choice of salsa, and a drink of choice.",
+          "price": 10.98
         },
         {
           "id": "3",
-          "title": "FajRito",
-          "description": "A combination of Chorizo's two classics, the Fajita and Burrito. A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese.",
+          "title": "Fiesta Salad Combo",
+          "description": "Romaine lettuce, beans, cheese, your choice of two salsas, choice of dressing, choice of meat, and more. Served with tortilla chips.",
           "price": 12.6
         },
         {
           "id": "4",
-          "title": "Vegetarian Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour tortilla with cilantro-lime rice, your choice of slowed cooked black or pinto beans.",
-          "price": 8.99
+          "title": "Quesadilla Combo",
+          "description": "Tasty quesadilla stuffed with cheese, your choice of two salsas, choice of beans, choice of meat, and more. Toasted to perfection.",
+          "price": 13.49
         },
         {
           "id": "5",
-          "title": "The el Grande",
-          "description": "A FajRito with double meat! A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onios, your choice of beans, cheese, lettuce.",
-          "price": 15.51
+          "title": "Nachos Combo",
+          "description": "Freshly made in-house tortilla chips topped with aged cheddar sauce, your choice of beans, choice of two salsas, choice of meat, and more.",
+          "price": 12.11
         }
       ]
     },
     {
-      "sectionName": "Burrito Combo",
+      "sectionName": "Sides and Extras",
+      "sectionDescription": "Can't get enough of that mango pineapple salsa? Get 12 ounces of it to keep in the fridge!",
       "sectionImage": "src/images/section-images/burrito-section.jpg",
-      "id": "1",
+      "id": "sides_and_extras",
       "item": [
         {
           "id": "1",
-          "title": "Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour with cilantro-lime rice, your choice of slowed cooked black or punto beans.",
-          "price": 11.76
+          "title": "Tortilla Chips",
+          "description": "Freshly made corn tortilla chips. (60 Cals)",
+          "price": 0.99
         },
         {
           "id": "2",
-          "title": "Fajita",
-          "description": "A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese, lettuce, sour cream, your choice of two salsas, and more.",
-          "price": 11.76
+          "title": "Chips and Salsa",
+          "description": "",
+          "price": 2.49
         },
         {
           "id": "3",
-          "title": "FajRito",
-          "description": "A combination of Chorizo's two classics, the Fajita and Burrito. A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese.",
-          "price": 12.6
+          "title": "Chips and Cheese Sauce (Queso)",
+          "description": "",
+          "price": 2.49
         },
         {
           "id": "4",
-          "title": "Vegetarian Burrito",
-          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour tortilla with cilantro-lime rice, your choice of slowed cooked black or pinto beans.",
-          "price": 8.99
+          "title": "Chips and Guacamole",
+          "description": "",
+          "price": 3.99
         },
         {
           "id": "5",
-          "title": "The el Grande",
-          "description": "A FajRito with double meat! A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onios, your choice of beans, cheese, lettuce.",
-          "price": 15.51
+          "title": "Large Bag of Tortilla Chips",
+          "description": "",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "sectionName": "Dessert",
+      "sectionDescription": "",
+      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "id": "dessert",
+      "item": [
+        {
+          "id": "1",
+          "title": "Cheesecake! Dulce de Leche",
+          "description": "Creamy caramel cheesecake baked on a vanilla crumb and topped with caramel swirled mousse and whipped cream rosettes.",
+          "price": 9.49
+        },
+        {
+          "id": "2",
+          "title": "Cheesecake! Wild Strawberries and Cream",
+          "description": "Wild strawberry cheesecake and classic cheesecake marbled together on a vanilla crumb, topped with a layer of strawberry cream.",
+          "price": 9.49
+        },
+        {
+          "id": "3",
+          "title": "Cheesecake! Vanilla Bean",
+          "description": "Layers of creamy Tahitian vanilla bean cheesecake, white chocolate vanilla mousse, finished with whipped cream, on a vanilla cookie crumb.",
+          "price": 9.49
+        },
+        {
+          "id": "4",
+          "title": "Cheesecake! Triple Ghirardelli® Chocolate",
+          "description": "Creamy chocolate cheesecake filled with milk and dark chocolate chips, baked on a moist chocolate brownie.",
+          "price": 9.49
+        },
+        {
+          "id": "5",
+          "title": "Dos Churros (2pcs)",
+          "description": "End your meal with a sweet note! Warm cinnamon churros cooked to order, with a dulce de leche dipping sauce.",
+          "price": 2.48
+        }
+      ]
+    },
+    {
+      "sectionName": "Drinks",
+      "sectionDescription": "Don't forget a beverage to quench your thirst!",
+      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "id": "drinks",
+      "item": [
+        {
+          "id": "1",
+          "title": "Bottled Drinks (473 mL)",
+          "description": "A cold, bottled drink of your choice!",
+          "price": 2.55
+        },
+        {
+          "id": "2",
+          "title": "Bottled Water (591 mL)",
+          "description": "A cold bottle of Dasani water.",
+          "price": 2.25
+        },
+        {
+          "id": "3",
+          "title": "Bottled Juice (450 mL)",
+          "description": "Bottles of Minute Maid juice in the flavour of your choice!.",
+          "price": 2.99
+        },
+        {
+          "id": "4",
+          "title": "Mexican Soda (Jarrito's) (370 mL)",
+          "description": "Delicious Mexican soda, four flavours to choose from!.",
+          "price": 2.99
         }
       ]
     }

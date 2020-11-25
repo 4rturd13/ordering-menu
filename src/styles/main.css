@@ -34,7 +34,8 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: white;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,7 +72,7 @@ header .top-menu .account-icon {
 }
 
 header .menu {
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,13 +82,6 @@ header .menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media screen and (max-width: 620px) {
-  header .menu .searchBox:hover > .searchInput {
-    width: 150px;
-    padding: 0 6px;
-  }
 }
 
 header .menu .menu-items {
@@ -127,7 +121,6 @@ header .menu li.active a {
 }
 
 section {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,10 +137,37 @@ section {
   font-size: 64px;
 }
 
+section .section-indicator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #f9fafb;
+  width: 100%;
+}
+
+section .section-indicator .title-section {
+  margin: 20px 20px 10px;
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+section .section-indicator .description-section {
+  font-size: 16px;
+  color: var(--gray-color);
+  margin-left: 20px;
+}
+
 section .image-section {
-  margin-top: 150px;
   width: 100%;
   height: 400px;
+  margin: 10px 20px 5px;
 }
 
 section .item {
@@ -200,8 +220,16 @@ section .item .item-price {
     font-size: 14px;
     padding: 13px;
   }
+  section .section-indicator .title-section {
+    font-size: 18px;
+    margin: 10px 20px;
+  }
+  section .section-indicator .description-section {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
   section .image-section {
-    margin-top: 0;
+    margin-top: 10px;
     height: 300px;
   }
   section .item {
@@ -239,6 +267,17 @@ section .item .item-price {
     font-size: 13px;
     padding: 10px;
   }
+  section {
+    top: 0;
+  }
+  section .section-indicator .title-section {
+    font-size: 16px;
+    margin: 10px 20px;
+  }
+  section .section-indicator .description-section {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
   section .image-section {
     height: 280px;
   }
@@ -261,7 +300,7 @@ section .item .item-price {
     position: fixed;
     top: 0;
     left: 0px;
-    width: 100vw;
+    width: 100%;
   }
   header .top-menu .logo {
     width: 60px;
@@ -281,6 +320,14 @@ section .item .item-price {
   header .menu .menu-items li a {
     font-size: 12px;
     padding: 10px;
+  }
+  section .section-indicator .title-section {
+    font-size: 15px;
+    margin: 10px 20px;
+  }
+  section .section-indicator .description-section {
+    font-size: 14px;
+    padding-bottom: 10px;
   }
   section .image-section {
     height: 280px;
