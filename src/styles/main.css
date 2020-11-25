@@ -4,6 +4,7 @@
   --gray-color: #5e6b77;
   --orange-color: #f36d00;
   --light-color: #fff;
+  --border-color: #f1f2f4;
 }
 
 * {
@@ -49,7 +50,7 @@ header .top-menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px solid #f1f2f4;
+  border-bottom: 1px solid var(--border-color);
   padding: 8px;
 }
 
@@ -110,6 +111,8 @@ header .menu .menu-items li a {
   display: block;
   color: var(--gray-color);
   font-weight: 300;
+  width: 100%;
+  white-space: nowrap;
 }
 
 header .menu .menu-items li:hover,
@@ -142,7 +145,7 @@ section {
 }
 
 section .image-section {
-  margin-top: 300px;
+  margin-top: 150px;
   width: 100%;
   height: 400px;
 }
@@ -160,7 +163,7 @@ section .item {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  border-bottom: 1px solid #f1f2f4;
+  border-bottom: 1px solid var(--border-color);
 }
 
 section .item .item-title {
@@ -278,8 +281,6 @@ section .item .item-price {
   header .menu .menu-items li a {
     font-size: 12px;
     padding: 10px;
-    width: 100%;
-    white-space: nowrap;
   }
   section .image-section {
     height: 280px;
@@ -296,5 +297,71 @@ section .item .item-price {
   section .item .item-price {
     font-size: 13px;
   }
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown .dd-button {
+  display: inline-block;
+  padding: 10px 30px 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--dark-color);
+}
+
+.dropdown .dd-input {
+  display: none;
+}
+
+.dropdown .dd-menu {
+  position: absolute;
+  top: 100%;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--light-color);
+  list-style-type: none;
+}
+
+.dropdown .dd-input + .dd-menu {
+  display: none;
+}
+
+.dropdown .dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.dropdown .dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown .dd-menu li:hover {
+  background-color: var(--border-color);
+}
+
+.dropdown .dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
 }
 /*# sourceMappingURL=main.css.map */

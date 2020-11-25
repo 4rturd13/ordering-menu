@@ -18,11 +18,17 @@
     <header>
       <div class="top-menu">
         <img class="logo" src="src/images/skip-logo.png" alt="skip-logo" />
-        <a class="drop-down" href="#"
-          ><span>Start Your Order</span>
-          <span><ion-icon name="caret-down-outline"></ion-icon> </span>
-        </a>
-        <!-- TODO: dropdown -->
+        <label class="dropdown">
+          <div class="dd-button">Start Your Order</div>
+
+          <input type="checkbox" class="dd-input" id="test" />
+
+          <ul class="dd-menu">
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+          </ul>
+        </label>
+
         <a class="account-icon" href="#"
           ><ion-icon name="person-circle-outline"></ion-icon
         ></a>
@@ -31,76 +37,33 @@
       <nav class="menu">
         <ul class="menu-items">
           <li class="active menu-item" data-url="burrito_combo">
-            <a href="#">Burrito Combo</a>
+            <a href="#burrito_combo">Burrito Combo</a>
           </li>
           <li class="menu-item" data-url="favourites">
-            <a href="#">Favourites</a>
+            <a href="#favourites">Favourites</a>
           </li>
           <li class="menu-item" data-url="favourite_combos">
-            <a href="#">Favourite Combos</a>
+            <a href="#favourite_combos">Favourite Combos</a>
           </li>
           <li class="menu-item" data-url="sides_and_extras">
-            <a href="#">Sides and Extras</a>
+            <a href="#sides_and_extras">Sides and Extras</a>
           </li>
           <li class="menu-item" data-url="dessert">
-            <a href="#">Dessert</a>
+            <a href="#dessert">Dessert</a>
           </li>
           <li class="menu-item" data-url="drinks">
-            <a href="#">Drinks</a>
+            <a href="#drinks">Drinks</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="section section-one" id="burrito_combo">
-        <!-- <img
-          class="image-section"
-          src="src/images/section-images/burrito-section.jpg"
-          alt="Burrito dish image"
-        /> -->
-        <!-- <article class="item">
-          <h6 class="item-title">Burrito</h6>
-          <p class="item-description">
-            Chorizo's handcrafted burritos are rolled in a fresh flour with
-            cilantro-lime rice, your choice of slowed cooked black or punto
-            beans.
-          </p>
-          <p class="item-price">$11.76</p>
-        </article>
-        <article class="item">
-          <h6 class="item-title">Fajita</h6>
-          <p class="item-description">
-            A fresh flour tortilla, cilantro-lime rice, sautéed peppers and
-            onions, cheese, lettuce, sour cream, your choice of two salsas, and
-            more.
-          </p>
-          <p class="item-price">$11.76</p>
-        </article>
-        <article class="item">
-          <h6 class="item-title">FajRito</h6>
-          <p class="item-description">
-            A combination of Chorizo's two classics, the Fajita and Burrito. A
-            fresh flour tortilla, cilantro-lime rice, sautéed peppers and
-            onions, cheese.
-          </p>
-          <p class="item-price">$12.60</p>
-        </article> -->
-      </section>
-      <section class="section" id="favourites">
-        <h1>Acerca</h1>
-      </section>
-      <section class="section" id="favourite_combos">
-        <h1>Servicios</h1>
-      </section>
-      <section class="section" id="sides_and_extras">
-        <h1>Portafolio</h1>
-      </section>
-      <section class="section" id="dessert">
-        <h1>Blog</h1>
-      </section>
-      <section class="section" id="drinks">
-        <h1>Contacto</h1>
-      </section>
+      <section class="section section-one" id="burrito_combo"></section>
+      <section class="section" id="favourites"></section>
+      <section class="section" id="favourite_combos"></section>
+      <section class="section" id="sides_and_extras"></section>
+      <section class="section" id="dessert"></section>
+      <section class="section" id="drinks"></section>
     </main>
     <script src="src/js/index.js"></script>
   </body>
