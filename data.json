@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "sectionName": "Burrito Combo",
+      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "id": "1",
+      "item": [
+        {
+          "id": "1",
+          "title": "Burrito",
+          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour with cilantro-lime rice, your choice of slowed cooked black or punto beans.",
+          "price": 11.76
+        },
+        {
+          "id": "2",
+          "title": "Fajita",
+          "description": "A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese, lettuce, sour cream, your choice of two salsas, and more.",
+          "price": 11.76
+        },
+        {
+          "id": "3",
+          "title": "FajRito",
+          "description": "A combination of Chorizo's two classics, the Fajita and Burrito. A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onions, cheese.",
+          "price": 12.6
+        },
+        {
+          "id": "4",
+          "title": "Vegetarian Burrito",
+          "description": "Chorizo's handcrafted burritos are rolled in a fresh flour tortilla with cilantro-lime rice, your choice of slowed cooked black or pinto beans.",
+          "price": 8.99
+        },
+        {
+          "id": "5",
+          "title": "The el Grande",
+          "description": "A FajRito with double meat! A fresh flour tortilla, cilantro-lime rice, sautéed peppers and onios, your choice of beans, cheese, lettuce.",
+          "price": 15.51
+        }
+      ]
+    }
+  ]
+}

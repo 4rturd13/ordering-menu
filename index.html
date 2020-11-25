@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Ordering menu</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-menu">
+        <img class="logo" src="src/images/skip-logo.png" alt="skip-logo" />
+        <a class="drop-down" href="#"
+          ><span>Start Your Order</span>
+          <span><ion-icon name="caret-down-outline"></ion-icon> </span>
+        </a>
+        <!-- TODO: dropdown -->
+        <a class="account-icon" href="#"
+          ><ion-icon name="person-circle-outline"></ion-icon
+        ></a>
+      </div>
+
+      <nav class="menu">
+        <ul class="menu-items">
+          <li class="active menu-item" data-url="burrito_combo">
+            <a href="#">Burrito Combo</a>
+          </li>
+          <li class="menu-item" data-url="favourites">
+            <a href="#">Favourites</a>
+          </li>
+          <li class="menu-item" data-url="favourite_combos">
+            <a href="#">Favourite Combos</a>
+          </li>
+          <li class="menu-item" data-url="sides_and_extras">
+            <a href="#">Sides and Extras</a>
+          </li>
+          <li class="menu-item" data-url="dessert">
+            <a href="#">Dessert</a>
+          </li>
+          <li class="menu-item" data-url="drinks">
+            <a href="#">Drinks</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section section-one" id="burrito_combo">
+        <!-- <img
+          class="image-section"
+          src="src/images/section-images/burrito-section.jpg"
+          alt="Burrito dish image"
+        /> -->
+        <!-- <article class="item">
+          <h6 class="item-title">Burrito</h6>
+          <p class="item-description">
+            Chorizo's handcrafted burritos are rolled in a fresh flour with
+            cilantro-lime rice, your choice of slowed cooked black or punto
+            beans.
+          </p>
+          <p class="item-price">$11.76</p>
+        </article>
+        <article class="item">
+          <h6 class="item-title">Fajita</h6>
+          <p class="item-description">
+            A fresh flour tortilla, cilantro-lime rice, sautéed peppers and
+            onions, cheese, lettuce, sour cream, your choice of two salsas, and
+            more.
+          </p>
+          <p class="item-price">$11.76</p>
+        </article>
+        <article class="item">
+          <h6 class="item-title">FajRito</h6>
+          <p class="item-description">
+            A combination of Chorizo's two classics, the Fajita and Burrito. A
+            fresh flour tortilla, cilantro-lime rice, sautéed peppers and
+            onions, cheese.
+          </p>
+          <p class="item-price">$12.60</p>
+        </article> -->
+      </section>
+      <section class="section" id="favourites">
+        <h1>Acerca</h1>
+      </section>
+      <section class="section" id="favourite_combos">
+        <h1>Servicios</h1>
+      </section>
+      <section class="section" id="sides_and_extras">
+        <h1>Portafolio</h1>
+      </section>
+      <section class="section" id="dessert">
+        <h1>Blog</h1>
+      </section>
+      <section class="section" id="drinks">
+        <h1>Contacto</h1>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

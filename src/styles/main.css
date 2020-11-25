@@ -1,0 +1,300 @@
+@import url("https://rsms.me/inter/inter.css");
+:root {
+  --dark-color: #162028;
+  --gray-color: #5e6b77;
+  --orange-color: #f36d00;
+  --light-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header .top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f1f2f4;
+  padding: 8px;
+}
+
+header .top-menu .logo {
+  width: 100px;
+}
+
+header .top-menu .drop-down {
+  color: var(--dark-color);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .top-menu .account-icon {
+  color: var(--gray-color);
+  font-size: 40px;
+}
+
+header .menu {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 620px) {
+  header .menu .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
+}
+
+header .menu .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+header .menu .menu-items li {
+  margin: 2px 5px;
+}
+
+header .menu .menu-items li a {
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  color: var(--gray-color);
+  font-weight: 300;
+}
+
+header .menu .menu-items li:hover,
+header .menu li.active {
+  border-bottom: 2px solid var(--orange-color);
+}
+
+header .menu .menu-items li:hover a,
+header .menu li.active a {
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 64px;
+}
+
+section .image-section {
+  margin-top: 300px;
+  width: 100%;
+  height: 400px;
+}
+
+section .item {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #f1f2f4;
+}
+
+section .item .item-title {
+  color: var(--dark-color);
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+section .item .item-description {
+  color: var(--gray-color);
+  font-size: 16px;
+  margin: 10px 20px;
+}
+
+section .item .item-price {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 10px 20px 20px;
+}
+
+@media (max-width: 1023px) {
+  header .top-menu .logo {
+    width: 80px;
+  }
+  header .top-menu .drop-down {
+    font-size: 14px;
+  }
+  header .top-menu .account-icon {
+    font-size: 30px;
+  }
+  header .menu-items li a {
+    font-size: 14px;
+    padding: 13px;
+  }
+  section .image-section {
+    margin-top: 0;
+    height: 300px;
+  }
+  section .item {
+    margin: 5px 0;
+  }
+  section .item .item-title {
+    font-size: 16px;
+    margin: 5px 20px;
+  }
+  section .item .item-description {
+    margin: 5px 20px;
+    font-size: 14px;
+  }
+  section .item .item-price {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 5px 20px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  header .top-menu .logo {
+    width: 70px;
+  }
+  header .top-menu .drop-down {
+    font-size: 13px;
+  }
+  header .top-menu .account-icon {
+    font-size: 25px;
+  }
+  header .menu-items li {
+    margin: 1px 1px;
+  }
+  header .menu-items li a {
+    font-size: 13px;
+    padding: 10px;
+  }
+  section .image-section {
+    height: 280px;
+  }
+  section .item {
+    margin: 5px 0;
+  }
+  section .item .item-title {
+    font-size: 15px;
+  }
+  section .item .item-description {
+    font-size: 13px;
+  }
+  section .item .item-price {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 639px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100vw;
+  }
+  header .top-menu .logo {
+    width: 60px;
+  }
+  header .top-menu .drop-down {
+    font-size: 12px;
+  }
+  header .top-menu .account-icon {
+    font-size: 20px;
+  }
+  header .menu {
+    overflow-x: auto;
+  }
+  header .menu .menu-items li {
+    padding: 0 auto;
+  }
+  header .menu .menu-items li a {
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  section .image-section {
+    height: 280px;
+  }
+  section .item {
+    margin: 5px 0;
+  }
+  section .item .item-title {
+    font-size: 15px;
+  }
+  section .item .item-description {
+    font-size: 13px;
+  }
+  section .item .item-price {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,264 @@
+:root {
+  --dark-color: #162028;
+  --gray-color: #5e6b77;
+  --orange-color: #f36d00;
+  --light-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f2f4;
+    padding: 8px;
+    .logo {
+      width: 100px;
+    }
+    .drop-down {
+      color: var(--dark-color);
+      font-weight: 500;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .account-icon {
+      color: var(--gray-color);
+      font-size: 40px;
+    }
+  }
+  .menu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 620px) {
+      .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+      }
+    }
+    .menu-items {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      width: 100%;
+    }
+    .menu-items li {
+      margin: 2px 5px;
+    }
+    .menu-items li a {
+      padding: 16px;
+      text-decoration: none;
+      display: block;
+      color: var(--gray-color);
+      font-weight: 300;
+    }
+    .menu-items li:hover,
+    li.active {
+      border-bottom: 2px solid var(--orange-color);
+      a {
+        color: var(--dark-color);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  .image-section {
+    margin-top: 300px;
+    width: 100%;
+    height: 400px;
+  }
+  .item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #f1f2f4;
+    .item-title {
+      color: var(--dark-color);
+      font-size: 18px;
+      margin: 10px 20px;
+    }
+    .item-description {
+      color: var(--gray-color);
+      font-size: 16px;
+      margin: 10px 20px;
+    }
+    .item-price {
+      color: var(--dark-color);
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin: 10px 20px 20px;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  header {
+    .top-menu {
+      .logo {
+        width: 80px;
+      }
+      .drop-down {
+        font-size: 14px;
+      }
+      .account-icon {
+        font-size: 30px;
+      }
+    }
+    .menu-items li a {
+      font-size: 14px;
+      padding: 13px;
+    }
+  }
+
+  section {
+    .image-section {
+      margin-top: 0;
+      height: 300px;
+    }
+    .item {
+      margin: 5px 0;
+      .item-title {
+        font-size: 16px;
+        margin: 5px 20px;
+      }
+      .item-description {
+        margin: 5px 20px;
+        font-size: 14px;
+      }
+      .item-price {
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: 5px 20px 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    .top-menu {
+      .logo {
+        width: 70px;
+      }
+      .drop-down {
+        font-size: 13px;
+      }
+      .account-icon {
+        font-size: 25px;
+      }
+    }
+    .menu-items li {
+      margin: 1px 1px;
+    }
+    .menu-items li a {
+      font-size: 13px;
+      padding: 10px;
+    }
+  }
+
+  section {
+    .image-section {
+      height: 280px;
+    }
+    .item {
+      margin: 5px 0;
+      .item-title {
+        font-size: 15px;
+      }
+      .item-description {
+        font-size: 13px;
+      }
+      .item-price {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100vw;
+    .top-menu {
+      .logo {
+        width: 60px;
+      }
+      .drop-down {
+        font-size: 12px;
+      }
+      .account-icon {
+        font-size: 20px;
+      }
+    }
+
+    .menu {
+      overflow-x: auto;
+      .menu-items li {
+        padding: 0 auto;
+      }
+      .menu-items li a {
+        font-size: 12px;
+        padding: 10px;
+        width: 100%;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  section {
+    .image-section {
+      height: 280px;
+    }
+    .item {
+      margin: 5px 0;
+      .item-title {
+        font-size: 15px;
+      }
+      .item-description {
+        font-size: 13px;
+      }
+      .item-price {
+        font-size: 13px;
+      }
+    }
+  }
+}
