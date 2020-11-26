@@ -41,7 +41,7 @@
     {
       "sectionName": "Favourites",
       "sectionDescription": "Tasty favourites ready for you to customize and enjoy!",
-      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "sectionImage": "src/images/section-images/favourites-section.jpg",
       "id": "favourites",
       "item": [
         {
@@ -79,7 +79,7 @@
     {
       "sectionName": "Favourite Combos",
       "sectionDescription": "Tasty favourites ready for you to customize and enjoy! Served with chips, salsas, and your choice of beverage",
-      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "sectionImage": "src/images/section-images/favourite_combos.jpg",
       "id": "favourite_combos",
       "item": [
         {
@@ -117,7 +117,7 @@
     {
       "sectionName": "Sides and Extras",
       "sectionDescription": "Can't get enough of that mango pineapple salsa? Get 12 ounces of it to keep in the fridge!",
-      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "sectionImage": "src/images/section-images/sides_and_extras.jpg",
       "id": "sides_and_extras",
       "item": [
         {
@@ -155,7 +155,7 @@
     {
       "sectionName": "Dessert",
       "sectionDescription": "",
-      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "sectionImage": "src/images/section-images/dessert.jpg",
       "id": "dessert",
       "item": [
         {
@@ -193,7 +193,7 @@
     {
       "sectionName": "Drinks",
       "sectionDescription": "Don't forget a beverage to quench your thirst!",
-      "sectionImage": "src/images/section-images/burrito-section.jpg",
+      "sectionImage": "src/images/section-images/drinks.jpg",
       "id": "drinks",
       "item": [
         {
